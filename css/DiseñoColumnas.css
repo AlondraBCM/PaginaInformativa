@@ -1,0 +1,187 @@
+﻿
+/* cnts *******************************************************************************************/
+.cnt10 {
+    float: left;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.cnt20 {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.cnt30 {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.cnt40 {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.cnt50 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.cnt60 {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.cnt70 {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.cnt80 {
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.cnt90 {
+    float: left;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.cnt100 {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.clm {
+    float: left;
+    /*min-width: 300px;*/
+    box-sizing: border-box;
+}
+
+/* 1 fila 1 clm*/
+.clms1 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms1 .clm {
+        width: 100%;
+    }
+
+/* 1 fila 2 clms*/
+.clms2 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms2 .clm {
+        width: 50%;
+    }
+
+/* 1 fila 3 clms*/
+.clms3 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms3 .clm {
+        width: 33.3%;
+    }
+
+/* 1 fila 4 clms*/
+.clms4 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms4 .clm {
+        width: 25%;
+    }
+
+/* 1 fila 5 clms*/
+.clms5 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms5 .clm {
+        width: 20%;
+    }
+
+/* 1 fila 6 clms*/
+.clms6 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms6 .clm {
+        width: 16.66%;
+    }
+
+/* 1 fila 7 clms*/
+.clms7 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms7 .clm {
+        width: 14.28%;
+    }
+
+/* 1 fila 8 clms*/
+.clms8 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms8 .clm {
+        width: 12.5%;
+    }
+
+/* 1 fila 9 clms*/
+.clms9 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms9 .clm {
+        width: 11.11%;
+    }
+
+/* 1 fila 10 clms*/
+.clms10 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms10 .clm {
+        width: 10%;
+    }
+
+/* 1 fila 11 clms*/
+.clms11 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms11 .clm {
+        width: 9.09%;
+    }
+
+/* 1 fila 12 clms*/
+.clms12 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .clms12 .clm {
+        width: 8.33%;
+    }

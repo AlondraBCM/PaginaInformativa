@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PaginaLineaBlanca.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <%-- MetaView --%>
+
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+
+    <%-- CSS --%>
+    <link href="css/Menu.css?v2.6" rel="stylesheet" type="text/css" />
+    <link href="css/Notificaciones.css?v0.1" rel="stylesheet" type="text/css" />
+    <link href="css/Slider.css?v0.9" rel="stylesheet" type="text/css" />
+    <link href="css/Estilos.css?1.1" rel="stylesheet" type="text/css" />
+    <link href="css/DiseñoColumnas.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <%-- Scripts --%>
+
+    <title>Pagina Papà</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+        <%-- Contenido Menu --%>
+        <div class="cnt100">
+            <div class="cnt100" style="height: auto; margin: 0 auto;">
+                <div class="cnt_logo">
+                    <label id="imglogo">
+                        STP</label>
+                </div>
+
+                <nav id="nav" style="position: fixed">
+
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+
+                    <ul class="nav-links">
+
+                        <li><a href="../Default.aspx">Inicio</a></li>
+                        <li><a href="../Modulos/Servicios.aspx">Servicio</a></li>
+                        <li><a href="../Modulos/Fallas.aspx">Fallas Comunes</a></li>
+                        <li><a href="../Modulos/Contacto.aspx">Contacto</a></li>
+                        <li><a href="#">Quienes Somos</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="btn_WhatsappFlotante">
+                <a href="https://api.whatsapp.com/send?phone=525566632666&text=Buenas tardes">
+                    <img src="../img/whatsapp--v2.png" style="width: 40px;" alt="Enviar Mensaje Whatsapp" /></a>
+            </div>
+
+            <div id="footer" class="cnt100" style="padding: 1.5em; background: #8593AE; color: white; font-size: 12pt; position: fixed; bottom: 0;">
+                <label>Copyright © 2020 STP Reparacion de Linea Blanca  </label>
+            </div>
+
+        </div>
+
+    </form>
+    <script src="../js/jquery-1.11.2.js?v0.0"></script>
+    <script src="../js/Menu.js?v0.6" type="text/javascript"></script>
+    <script src="../js/Funciones.js?v0.9"></script>
+    <script src="../js/Notificaciones.js?v0.4"></script>
+
+</body>
+</html>
